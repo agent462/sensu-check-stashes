@@ -9,7 +9,8 @@ Usage
 -----------
 1. Drop this file in your sensu plugins directory.
 2. Configure the check on the sensu-server
-~~~
+
+````json
 {
   "checks": {
     "check-stashes": {
@@ -21,4 +22,4 @@ Usage
     }
   }
 }
-~~~
+````
