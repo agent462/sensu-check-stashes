@@ -4,7 +4,7 @@ require 'net/https'
 require 'uri'
 require "json"
 
-class SilencedCheck < Sensu::Plugin::Check::CLI
+class CheckStashes < Sensu::Plugin::Check::CLI
   option :api,
     :short => "-a URL",
     :long => "--api URL",
